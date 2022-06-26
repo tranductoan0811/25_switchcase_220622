@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+
+  <!--  
+  Viết lại cấu trúc if sau thành cấu trúc switch
+  let a = prompt('a?', '');
+
+if (a == 0) {
+    alert(0);
+}
+
+if (a == 1) {
+    alert(1);
+}
+
+if (a == 2 || a == 3) {
+    alert('2,3');
+}
+  -->
+
+  <script>
+    var number = parseInt(prompt("a?", ''));
+   
+
+    switch (number) {
+
+      case 0:
+        alert('0');
+        break;
+      case 1:
+        alert('1');
+
+      case 2:
+      case 3:
+        alert('2,3');
+        break;
+      default:
+        alert("wrong number.");
+
+    }
+
+  </script>
+
+
+</body>
+
+
+
+</html>
